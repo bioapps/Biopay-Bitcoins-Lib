@@ -1,0 +1,24 @@
+{
+  "name": "biopay-bitcoins-lib",
+  "version": "0.1.0",
+  "description": "Contains everything specific to the format use by biopay-apps when dealing with bitcoins.",
+  "main": "index.js",
+  "dependencies": {
+    "node-rsa": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bioapps/Biopay-Bitcoins-Lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bioapps/Biopay-Bitcoins-Lib/issues"
+  },
+  "homepage": "https://github.com/bioapps/Biopay-Bitcoins-Lib#readme"
+}
