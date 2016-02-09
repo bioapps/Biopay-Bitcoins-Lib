@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = {
-	Constants: require('./src/Constants')
+	Constants: require('./src/Constants'),
+	Crypto: require('./src/Crypto')
 };
