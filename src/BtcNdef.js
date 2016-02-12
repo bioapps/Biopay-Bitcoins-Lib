@@ -3,7 +3,7 @@
 const ndef = require('ndef');
 const Constants = require('./Constants');
 
-const BtcNdefRecord = {
+const BtcNdef = {
 
 	isBtcNdefRecord(ndefRecord) {
 		if (ndefRecord.type !== 'T') {
@@ -24,7 +24,7 @@ const BtcNdefRecord = {
 	},
 
 	getCredentialsFromNdefRecord(ndefRecord) {
-		if (!BtcNdefRecord.isBtcNdefRecord(ndefRecord)) {
+		if (!BtcNdef.isBtcNdefRecord(ndefRecord)) {
 			throw Error('Ndef record is not a BtcNdefRecord.');
 		}
 
@@ -59,4 +59,4 @@ const BtcNdefRecord = {
 	}
 };
 
-module.exports = BtcNdefRecord;
+module.exports = BtcNdef;
