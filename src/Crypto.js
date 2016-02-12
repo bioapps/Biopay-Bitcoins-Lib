@@ -8,7 +8,7 @@ const baseConfig = {
 	privateKey: null
 };
 
-module.exports = class Crypt {
+module.exports = class Crypto {
 	constructor(config) {
 		this.config = Object.assign({}, baseConfig, config);
 
