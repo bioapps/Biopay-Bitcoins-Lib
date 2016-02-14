@@ -6,6 +6,10 @@ const Constants = require('./Constants');
 const BtcNdef = {
 
 	isBtcNdefRecord(ndefRecord) {
+		if (!ndefRecord) {
+			return false;
+		}
+
 		if (ndefRecord.type !== 'T') {
 			return false;
 		}

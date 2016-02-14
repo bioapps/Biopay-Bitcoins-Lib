@@ -4,6 +4,7 @@
   "description": "Contains everything specific to the format use by biopay-apps when dealing with bitcoins.",
   "main": "index.js",
   "dependencies": {
+    "ndef": "^0.1.2",
     "node-rsa": "^0.3.2"
   },
   "devDependencies": {
